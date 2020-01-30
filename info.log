@@ -1,0 +1,67 @@
+{"message":"Cannot destructure property `name` of 'undefined' or 'null'.","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id undefined succesfully deleted","level":"info"}
+{"message":"Folder with id 2 created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"Folder with id 3 created","level":"info"}
+{"message":"Folder with id 3 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 4 created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Request is missing a required field","level":"error"}
