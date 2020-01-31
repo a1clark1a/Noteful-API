@@ -47,11 +47,11 @@ foldersRouter
   });
 
 foldersRouter
-  .route("/:folder_id")
+  .route("/:folders_id")
   .all((req, res, next) => {
     const knexInstance = req.app.get("db");
-    const { folder_id } = req.params;
-    FoldersService.getById(knexInstance, folder_id)
+    const { folders_id } = req.params;
+    FoldersService.getById(knexInstance, folders_id)
       .then(folder => {
         if (!folder) {
           logger.error("No folder with the given id");
@@ -69,10 +69,10 @@ foldersRouter
   })
   .delete((req, res, next) => {
     const knexInstance = req.app.get("db");
-    const { folder_id } = req.params;
-    FoldersService.deleteFolders(knexInstance, folder_id)
+    const { folders_id } = req.params;
+    FoldersService.deleteFolders(knexInstance, folders_id)
       .then(() => {
-        logger.info(`Folder with id ${folder_id} succesfully deleted`);
+        logger.info(`Folder with id ${folders_id} succesfully deleted`);
         res.status(204).end();
       })
       .catch(next);
@@ -80,21 +80,21 @@ foldersRouter
   .patch(jsonParser, (req, res, next) => {
     const { name } = req.body;
     const knexInstance = req.app.get("db");
-    const { folder_id } = req.params;
+    const { folders_id } = req.params;
     const folderToUpdate = { name };
 
     const numberOfValues = Object.values(folderToUpdate).filter(Boolean).length;
     if (numberOfValues === 0) {
-      logger.error("Request is missing a required field");
+      logger.error("Patch Request is missing a required field");
       return res.status(400).json({
         error: {
           message: `Request body must contain a name` //may refactor error message when more required field is added
         }
       });
     }
-    FoldersService.updateFolders(knexInstance, folder_id, folderToUpdate)
+    FoldersService.updateFolders(knexInstance, folders_id, folderToUpdate)
       .then(() => {
-        logger.info(`Folder with id ${folder_id} succesfully updated`);
+        logger.info(`Folder with id ${folders_id} succesfully updated`);
         res.status(204).end();
       })
       .catch(next);

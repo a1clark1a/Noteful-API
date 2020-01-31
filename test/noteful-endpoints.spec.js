@@ -83,7 +83,7 @@ describe("Folders endpoints", () => {
         return db.into("noteful_folders").insert(testFolders);
       });
 
-      it(`GET /api/folders/:folder_id responds with 200 and the specified folder`, () => {
+      it(`GET /api/folders/:folders_id responds with 200 and the specified folder`, () => {
         const idToGet = 2;
         const expectedFolder = testFolders[idToGet - 1];
         return supertest(app)
@@ -200,7 +200,7 @@ describe("Folders endpoints", () => {
     });
   });
 
-  describe(`PATCH /api/folders/:folder_id`, () => {
+  describe(`PATCH /api/folders/:folders_id`, () => {
     context(`Given no folders`, () => {
       it("responds with a 404", () => {
         return supertest(app)
