@@ -25,7 +25,7 @@ describe("Folders endpoints", () => {
   );
 
   describe("GET /api/folders", () => {
-    context("Given no bookmarks", () => {
+    context("Given no folders", () => {
       it("responds with 200 and an empty list", () => {
         return supertest(app)
           .get("/api/folders")
@@ -182,7 +182,7 @@ describe("Folders endpoints", () => {
         return db.into("noteful_folders").insert(testFolders);
       });
 
-      it("responds with a 204 and removes the article", () => {
+      it("responds with a 204 and removes the folder", () => {
         const idToRemove = 2;
         const remainingFolders = testFolders.filter(
           folder => folder.id !== idToRemove

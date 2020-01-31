@@ -43,10 +43,11 @@ notesRouter
     newNote.content = content;
     NotesService.insertNote(knexInstance, newNote)
       .then(notes => {
+        logger.info(`Note with id ${notes.id} succesfully created`);
         res
           .status(201)
           .location(path.posix.join(req.originalUrl, `/${notes.id}`))
-          .json(sanitizedNotes(newNote));
+          .json(sanitizedNotes(notes));
       })
       .catch(next);
   });

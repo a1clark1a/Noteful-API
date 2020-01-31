@@ -158,3 +158,193 @@
 {"message":"Folder with id 1 succesfully created","level":"info"}
 {"message":"Notes with id 1 succesfully updated","level":"info"}
 {"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folders_id\", \"name\") values ($1, $2, $3) returning * - insert or update on table \"noteful_notes\" violates foreign key constraint \"noteful_notes_folders_id_fkey\"","level":"error"}
+{"message":{"id":1,"name":"TESTING THE NOTE","modified":"2020-01-31T15:46:17.704Z","folders_id":2,"content":"Some test content"},"level":"info"}
+{"message":1,"level":"info"}
+{"level":"info","message":""}
+{"level":"info","message":""}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folders_id\", \"name\") values ($1, $2, $3) returning * - insert or update on table \"noteful_notes\" violates foreign key constraint \"noteful_notes_folders_id_fkey\"","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Note with id 2 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"Note with id 3 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing name request body","level":"error"}
+{"message":"Missing folders_id request body","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 2 succesfully deleted","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing name request body","level":"error"}
+{"message":"Missing folders_id request body","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 2 succesfully deleted","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"Missing Parameter in request body","level":"error"}
+{"message":"Folder with id 1 succesfully created","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully deleted","level":"info"}
+{"message":"No folder with the given id","level":"error"}
+{"message":"Folder with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"Missing name request body","level":"error"}
+{"message":"Missing folders_id request body","level":"error"}
+{"message":"Note with id 1 succesfully created","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Note with id 2 succesfully deleted","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Patch Request is missing a required field","level":"error"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Notes with id 2 succesfully updated","level":"info"}
+{"message":"Note with id 3 succesfully deleted","level":"info"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"No notes with the given id","level":"error"}
+{"message":"No notes with the given id","level":"error"}
