@@ -1,3 +1,51 @@
+# NOTEFUL-SERVER API
+
+## LIVE APP
+
+- Noteful-Client = https://a1clark1a-noteful-client.now.sh/
+
+- Noteful-Serve =
+
+## Summary
+
+- A Node.js and Express server API that handles CRUD request from Noteful-Client project. Utilizes RESTful api architecture, mocha, chai and supertest endpoints testing and validation, XSS cross-site scripting sanitation, and PostgreSQL and Knex for database management.
+
+## TECH STACK
+
+- Node.js
+- Express
+- Mocha, Chai and Supertest
+- Postgresql
+- morgan and winston logger
+- Knex
+- XSS
+
+## API-ENDPOINTS
+
+### Folders
+
+- `/GET /api/folders`
+
+- `/GET /api/folders/:folders_id`
+
+- `/POST /api/folders/` - Request body needs a "name" parameter
+
+- `/DELETE /api/folders/:folders_id`
+
+- `/PATCH /api/folders/:folders_id` Request body takes a "name"
+
+### Notes
+
+- `/GET /api/notes`
+
+- `/GET /api/notes/:notes_id`
+
+- `/POST /api/notes/` - Request body needs a ["name", "folders_id"] parameter as required and "content" for not required
+
+- `/DELETE /api/notes/:notes_id`
+
+- `/PATCH /api/notes/:notes_id` Request body takes a ["name", "content", "folders_id"]
+
 # Express Boilerplate!
 
 This is a boilerplate project used for starting new projects!
